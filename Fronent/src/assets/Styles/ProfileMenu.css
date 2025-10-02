@@ -1,0 +1,41 @@
+.profile-wrapper {
+  position: relative;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  padding: 0.5rem 0;
+  min-width: 160px;
+  z-index: 50;
+}
+
+.profile-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  color: #1f1f1f;
+  transition: background 0.2s;
+}
+
+.profile-dropdown li:hover {
+  background: #f0f0f0;
+}

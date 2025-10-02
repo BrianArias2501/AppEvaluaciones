@@ -1,0 +1,198 @@
+/* Estilos generales */
+.home {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f1fef4;
+}
+
+/* Hero principal */
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.home-texto {
+  max-width: 50%;
+}
+
+.home-texto h1 {
+  font-size: 2.8rem;
+  color: #057c44;
+  font-weight: bold;
+}
+
+.home-texto p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.botones-acciones {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+
+.boton-principal {
+  padding: 0.7rem 1.4rem;
+  width: 180px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #057c44;
+  background-color: white;
+  color: #057c44;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-principal:hover {
+  background-color: #057c44;
+  color: white;
+}
+
+/* Imagen portada */
+.home-hero img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Beneficios */
+.beneficios {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.beneficios h2 {
+  color: #2c5234;
+  font-size: 2rem;
+}
+
+.beneficios hr {
+  width: 60px;
+  height: 3px;
+  background-color: #2c5234;
+  margin: 0.5rem auto 2rem;
+  border: none;
+}
+
+.beneficios-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.beneficio {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.beneficio:hover {
+  transform: translateY(-5px);
+}
+
+.beneficio .icono {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.beneficio h3 {
+  font-size: 1.2rem;
+  color: #183d3d;
+  margin-bottom: 0.5rem;
+}
+
+.beneficio p {
+  color: #3a3a3a;
+}
+
+/* Formulario de contacto */
+.contact-form {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  border-top: 3px solid #9be29d;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #0a8046;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9fcff;
+  font-size: 1rem;
+}
+
+/* Usamos la misma clase de botón aquí también */
+.contact-form button[type="submit"] {
+  background-color: #0a8046;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #066437;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-texto {
+    max-width: 100%;
+  }
+
+  .home-hero img {
+    max-width: 90%;
+    margin-top: 2rem;
+  }
+
+  .beneficios-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

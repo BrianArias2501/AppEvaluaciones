@@ -1,0 +1,91 @@
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #009660, #006644);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px 35px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.logo-sena {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.login-header h1 {
+  margin-bottom: 5px;
+  font-size: 26px;
+  color: #009660;
+}
+
+.login-header p {
+  font-size: 14px;
+  color: #555;
+}
+
+.input-field,
+.select-role {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.input-field:focus,
+.select-role:focus {
+  border-color: #009660;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #009660;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #007f50;
+}
+
+.register-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-link a {
+  color: #009660;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.login-footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+}

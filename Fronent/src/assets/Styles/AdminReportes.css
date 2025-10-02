@@ -1,0 +1,80 @@
+.admin-reportes-container {
+  padding: 2rem;
+  background-color: #f4fdf8;
+  min-height: 80vh;
+}
+
+.titulo-reportes {
+  text-align: center;
+  font-size: 2rem;
+  color: #0a8046;
+}
+
+.descripcion-reportes {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.acciones-reportes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-exportar {
+  background-color: #0a8046;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-exportar:hover {
+  background-color: #066437;
+}
+
+.tabla-reportes {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-reportes th,
+.tabla-reportes td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-reportes th {
+  background-color: #0a8046;
+  color: white;
+  font-weight: 600;
+}
+
+.volver-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.volver-btn {
+  background-color: #0a8046;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.volver-btn:hover {
+  background-color: #066437;
+}
