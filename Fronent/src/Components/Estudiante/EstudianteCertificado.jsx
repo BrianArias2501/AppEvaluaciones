@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/EstudianteCertificado.css";
+import "../../assets/styles/EstudianteCertificado.css";
 import { FaFileDownload, FaCertificate } from "react-icons/fa";
 import jsPDF from "jspdf";
 

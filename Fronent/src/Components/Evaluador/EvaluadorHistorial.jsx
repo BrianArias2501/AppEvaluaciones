@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../../assets/Styles/EvaluadorHistorial.css";
+import "../../assets/styles/EvaluadorHistorial.css";
 
 function EvaluadorHistorial() {
   const navigate = useNavigate();

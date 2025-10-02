@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import "../../assets/Styles/EvaluadorProyectos.css";
+import "../../assets/styles/EvaluadorProyectos.css";
 
 function EvaluadorProyectos() {
   const navigate = useNavigate();

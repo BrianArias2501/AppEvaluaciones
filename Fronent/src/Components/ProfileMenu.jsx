@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { FiUser, FiLogOut, FiEdit } from "react-icons/fi";
 import { useAuth } from "../context/AuthContext";
-import "../assets/Styles/ProfileMenu.css";
+import "../assets/styles/ProfileMenu.css";
 
 export default function ProfileMenu() {
   const { user, logout } = useAuth();

@@ -1,4 +1,4 @@
-import "../assets/Styles/Navbar.css";
+import "../assets/styles/Navbar.css";
 import ProfileMenu from "./ProfileMenu";
 
 function Navbar() {

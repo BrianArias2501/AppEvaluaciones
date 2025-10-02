@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../../assets/Styles/EvaluadorCalificar.css";
+import "../../assets/styles/EvaluadorCalificar.css";
 
 function EvaluadorCalificar() {
   const navigate = useNavigate();

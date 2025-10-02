@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/EstudianteEvaluaciones.css";
+import "../../assets/styles/EstudianteEvaluaciones.css";
 import { FaClipboardCheck } from "react-icons/fa";
 import { useNavigate } from "react-router-dom"; 
 

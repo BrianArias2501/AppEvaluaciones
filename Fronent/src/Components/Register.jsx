@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import config from '../config/config';
-import "../assets/Styles/Login.css";
+import "../assets/styles/Login.css";
 import senaLogo from "../assets/img/sena-logo.png";
 
 function Register() {

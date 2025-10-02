@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/EstudianteProyectos.css";
+import "../../assets/styles/EstudianteProyectos.css";
 import { FaBook, FaUpload, FaInfoCircle, FaTrashAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

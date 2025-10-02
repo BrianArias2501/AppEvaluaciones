@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { FaCertificate, FaFileDownload } from "react-icons/fa";
 import jsPDF from "jspdf";
-import "../../assets/Styles/EvaluadorCertificado.css";
+import "../../assets/styles/EvaluadorCertificado.css";
 
 function EvaluadorCertificado() {
   const navigate = useNavigate();

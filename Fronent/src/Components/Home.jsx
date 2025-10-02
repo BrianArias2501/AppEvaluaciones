@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import portadaImg from "../assets/img/portada.png";
-import "../assets/Styles/Home.css";
+import "../assets/styles/Home.css";
 
 function Home() {
   const navigate = useNavigate();

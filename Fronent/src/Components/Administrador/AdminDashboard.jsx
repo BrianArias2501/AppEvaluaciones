@@ -2,7 +2,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { FaUserCog, FaChartBar, FaShieldAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import "../../assets/Styles/Admin.css";
+import "../../assets/styles/Admin.css";
 
 
 function AdminDashboard() {

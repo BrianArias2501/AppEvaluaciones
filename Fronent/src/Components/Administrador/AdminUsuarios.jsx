@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaUserEdit, FaTrashAlt, FaPlusCircle } from "react-icons/fa";
-import "../../assets/Styles/AdminUsuarios.css";
+import "../../assets/styles/AdminUsuarios.css";
 
 function AdminUsuarios() {
   const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import "../assets/Styles/Card.css";
+import "../assets/styles/Card.css";
 
 function Card({ title, description, icon, onClick }) {
   return (

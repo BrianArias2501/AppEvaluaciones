@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/EstudianteNotas.css";
+import "../../assets/styles/EstudianteNotas.css";
 import { FaChartBar } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

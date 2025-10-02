@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../../assets/Styles/AdminReportes.css";
+import "../../assets/styles/AdminReportes.css";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 

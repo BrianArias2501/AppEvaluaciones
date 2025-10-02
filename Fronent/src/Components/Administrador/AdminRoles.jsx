@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../../assets/Styles/AdminRoles.css";
+import "../../assets/styles/AdminRoles.css";
 
 function AdminRoles() {
   const navigate = useNavigate();

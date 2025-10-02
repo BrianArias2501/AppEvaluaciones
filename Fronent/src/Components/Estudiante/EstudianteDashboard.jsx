@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/Estudiante.css";
+import "../../assets/styles/Estudiante.css";
 import { FaBook, FaCheckCircle, FaChartLine, FaFileDownload, FaFolderOpen } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

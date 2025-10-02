@@ -1,6 +1,6 @@
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/Evaluador.css";
+import "../../assets/styles/Evaluador.css";
 import { FaCheckCircle, FaHistory, FaFileDownload } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

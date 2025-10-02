@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import "../../assets/Styles/EstudianteCrearProyecto.css";
+import "../../assets/styles/EstudianteCrearProyecto.css";
 import { FaFolderOpen, FaSave, FaTimes } from "react-icons/fa";
 import projectService from "../../services/projectService";
 import { useAuth } from "../../context/AuthContext";
